@@ -8,9 +8,20 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'
   ],
+
+  // Everything is fine here:
+  // theme: {
+  //   extend: {},
+  // },
+
+  // With this styles breask
   theme: {
-    extend: {},
+    colors: {
+      'my-gray': '#4A4A4A',
+    },
+    extend: {}
   },
+
   darkMode: "class",
   plugins: [nextui()],
 }
