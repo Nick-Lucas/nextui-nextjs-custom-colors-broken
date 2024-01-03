@@ -10,17 +10,17 @@ module.exports = {
   ],
 
   // Everything is fine here:
-  // theme: {
-  //   extend: {},
-  // },
-
-  // With this styles breask
   theme: {
-    colors: {
-      'my-gray': '#4A4A4A',
-    },
-    extend: {}
+    extend: {},
   },
+
+  // With this styles break
+  // theme: {
+  //   colors: {
+  //     'my-gray': '#4A4A4A',
+  //   },
+  //   extend: {}
+  // },
 
   darkMode: "class",
   plugins: [nextui()],
